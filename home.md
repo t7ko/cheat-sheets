@@ -2,6 +2,7 @@ Auto-generated pages index:
 
 ## Index
 
+* [GitHub](GitHub)
 * [Markdown](Markdown)
 * [README](README)
 * [UML](UML)
@@ -14,6 +15,7 @@ Auto-generated pages index:
 
 ## Tree
 
+* [GitHub](GitHub)
 * [Markdown](Markdown)
 * [README](README)
 * [UML](UML)
@@ -28,6 +30,7 @@ Auto-generated pages index:
 
 ### ROOT
 
+* [GitHub](GitHub)
 * [Markdown](Markdown)
 * [README](README)
 * [UML](UML)

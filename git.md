@@ -1,4 +1,4 @@
-* Tag: git, github
+Tags: :git:github:
 
 * Publish to github (will also create new branch there):
   - `git push origin dev`
@@ -18,6 +18,7 @@ git fetch git://host.com/path/to/repo.git remote-branch-name:local-branch-name
 git checkout local-branch-name
 
 
+# DCO/signed commit
 git verify-commit # to check signature
 git rebase --signoff HEAD~2 # sign last 2 commits
 

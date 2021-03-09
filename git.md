@@ -10,6 +10,7 @@ Tags: :git:github:
 
 ```
 # Check out remote branch without creating a local 'remote'
+# https://stackoverflow.com/questions/10200307/how-to-git-fetch-and-checkout-without-creating-a-remote-branch-locally
 # to merge:
 git fetch git://github.com/xxx/xxx.git branch_name && git merge FETCH_HEAD
 

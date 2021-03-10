@@ -19,9 +19,33 @@ Lists:
 
 
 
-
+```
 "markdown.extension.toc.levels": "2..6"
 "markdown.extension.toc.unorderedList.marker": "*"
+```
 
 <!--- spellcheck-language ru
 -->
+
+* GitHub embed image:
+
+  ```
+  ![Alt Text](relative-path-to-an-image-file.ext)
+  ```
+
+* GitHub Foldable Section
+
+  ```
+  <details>
+  <summary>The Summary/headline</summary>
+  <p>
+  
+  some long text,
+  
+  may have multiple paragraphs,
+  
+  and even tables
+  
+  </p>
+  </details>
+  ```

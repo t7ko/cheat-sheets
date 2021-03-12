@@ -3,6 +3,12 @@
 
 # Tips and Tricks
 
+* Markdown syntax:
+  * <https://www.markdownguide.org/basic-syntax/>
+  * https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+  * GitHub tables: https://www.pluralsight.com/guides/working-tables-github-markdown
+
+
 * GitHub embed image:
 
   ```

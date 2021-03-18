@@ -8,6 +8,19 @@ Other stuff:
 
 * Collapsible chunks of text: <https://docs.gitlab.com/ce/user/markdown.html#details-and-summary>
 
+```
+<p>
+<details>
+<summary>Click this to collapse/fold.</summary>
+
+These details <em>remain</em> <strong>hidden</strong> until expanded.
+
+<pre><code>PASTE LOGS HERE</code></pre>
+
+</details>
+</p>
+```
+
 Markdown syntax:
 
 * <https://www.markdownguide.org/basic-syntax/>

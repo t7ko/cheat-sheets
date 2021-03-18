@@ -12,6 +12,7 @@ Auto-generated pages index:
 * [haproxy](haproxy)
 * [home](home)
 * [screen](screen)
+* [yum, rpm](yum,-rpm)
 
 
 ## Tree
@@ -26,6 +27,7 @@ Auto-generated pages index:
 * [haproxy](haproxy)
 * [home](home)
 * [screen](screen)
+* [yum, rpm](yum,-rpm)
 
 
 ## Categories
@@ -42,5 +44,6 @@ Auto-generated pages index:
 * [haproxy](haproxy)
 * [home](home)
 * [screen](screen)
+* [yum, rpm](yum,-rpm)
 
 

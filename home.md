@@ -11,6 +11,7 @@ Auto-generated pages index:
 * [git](git)
 * [haproxy](haproxy)
 * [home](home)
+* [http](http)
 * [screen](screen)
 * [yum, rpm](yum,-rpm)
 
@@ -26,6 +27,7 @@ Auto-generated pages index:
 * [git](git)
 * [haproxy](haproxy)
 * [home](home)
+* [http](http)
 * [screen](screen)
 * [yum, rpm](yum,-rpm)
 
@@ -43,6 +45,7 @@ Auto-generated pages index:
 * [git](git)
 * [haproxy](haproxy)
 * [home](home)
+* [http](http)
 * [screen](screen)
 * [yum, rpm](yum,-rpm)
 

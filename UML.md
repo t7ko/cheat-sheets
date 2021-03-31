@@ -2,6 +2,8 @@
 
 # PlantUML
 
+## General
+
 <http://plantuml.com/>
 
 PS: <http://sdntutorials.com/steps-to-install-plantuml-on-windows-7/> ,
@@ -42,6 +44,11 @@ Proxy diagram generator for GitHub:
 отображается полностью, добавьте &fmt=svg --
 http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=<URL-to-your.uml>
 ```
+
+## vim plugin
+
+https://github.com/scrooloose/vim-slumlord
+
 
 # `draw.io`
 

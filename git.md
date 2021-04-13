@@ -43,3 +43,10 @@ git push origin --delete b1
 git remote prune origin
 git push origin --delete `git br -a | grep '^  remotes/origin' | sed 's|^  remotes/origin/||' | grep -v '^HEAD' |  grep -v '^main$' | head -n 20`
 }}}
+
+
+# git diff
+
+```
+git diff --minimal --ignore-all-space
+```

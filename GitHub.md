@@ -13,3 +13,7 @@ If you want to accept a repository invite, then you can use this schema:
 
     https://github.com/PUT_ORGANIZATION_NAME_HERE/PUT_REPOSITORY_NAME_HERE/invitations
 
+
+# your branches
+
+https://github.com/Seagate/cortx-s3server/branches/yours

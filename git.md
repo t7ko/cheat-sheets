@@ -50,3 +50,8 @@ git push origin --delete `git br -a | grep '^  remotes/origin' | sed 's|^  remot
 ```
 git diff --minimal --ignore-all-space
 ```
+
+
+# git log / lol
+
+git log --graph --decorate --pretty=oneline --abbrev-commit

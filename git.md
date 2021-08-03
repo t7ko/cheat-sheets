@@ -7,6 +7,12 @@ Tags: :git:github:
   - `git co -b dev origin/dev`
 * Add 'remote' repo to track it:
   - `git remote add upstream https://.../vimwiki/vimwiki.git`
+* git diff
+  - `git diff --minimal --ignore-all-space`
+* git log / lol
+  - `git log --graph --decorate --pretty=oneline --abbrev-commit`
+* change remote of a checked out branch
+  - `git branch branch_name --set-upstream-to your_new_remote/branch_name`
 
 ```
 # Check out remote branch without creating a local 'remote'
@@ -37,26 +43,10 @@ plugin 'git-up'
 
 # Deleting Branches
 
-{{{
+```
 git push origin --delete b1
 
 git remote prune origin
 git push origin --delete `git br -a | grep '^  remotes/origin' | sed 's|^  remotes/origin/||' | grep -v '^HEAD' |  grep -v '^main$' | head -n 20`
-}}}
-
-
-# git diff
-
-```
-git diff --minimal --ignore-all-space
 ```
 
-
-# git log / lol
-
-git log --graph --decorate --pretty=oneline --abbrev-commit
-
-
-# change remote of a checked out branch
-
-`git branch branch_name --set-upstream-to your_new_remote/branch_name`

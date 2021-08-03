@@ -58,11 +58,29 @@ Official:
 * `yum install docker`
 * `yum clean packages` to free space in /var
 * `sudo docker pull gitlab/gitlab-ce:latest`
+* Run:
+  ```
+  docker run --detach --hostname YOUR_HOSTNAME \
+    --publish 443:443 --publish 80:80 --publish 12322:22 \
+    --name gitlab --restart always \
+    --volume /srv/gitlab/config:/etc/gitlab \
+    --volume /srv/gitlab/logs:/var/log/gitlab   \
+    --volume /srv/gitlab/data:/var/opt/gitlab  \
+    --env GITLAB_OMNIBUS_CONFIG="external_url 'http://YOUR_HOSTNAME';" \
+    gitlab/gitlab-ce:latest
+  ```
 * `systemctl enable docker # to enable auto-startup`
 
 * Monitoring status/logs:
-  * sudo docker logs -f gitlab-linode
+  * sudo docker logs -f gitlab
 
+* If using podman:
+
+  ```
+  podman generate systemd --new --name gitlab > /etc/systemd/system/gitlab.service`
+  systemctl list-unit-files | grep gitlab
+  systemctl enable gitlab
+  ```
 
 Gollum
 ======

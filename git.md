@@ -55,3 +55,8 @@ git diff --minimal --ignore-all-space
 # git log / lol
 
 git log --graph --decorate --pretty=oneline --abbrev-commit
+
+
+# change remote of a checked out branch
+
+`git branch branch_name --set-upstream-to your_new_remote/branch_name`

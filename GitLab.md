@@ -55,6 +55,7 @@ Official:
 3rd party manual:
 
 * https://www.linode.com/docs/guides/install-gitlab-with-docker/
+* `yum install docker`
 * `yum clean packages` to free space in /var
 * `sudo docker pull gitlab/gitlab-ce:latest`
 * `systemctl enable docker # to enable auto-startup`

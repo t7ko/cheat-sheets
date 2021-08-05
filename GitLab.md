@@ -70,17 +70,16 @@ Official:
     gitlab/gitlab-ce:latest
   ```
 * `systemctl enable docker # to enable auto-startup`
-
-* Monitoring status/logs:
-  * sudo docker logs -f gitlab
-
-* If using podman:
-
+* Or -- if using podman:
   ```
   podman generate systemd --new --name gitlab > /etc/systemd/system/gitlab.service`
   systemctl list-unit-files | grep gitlab
   systemctl enable gitlab
   ```
+
+* Monitoring status/logs:
+  * sudo docker logs -f gitlab
+
 
 Gollum
 ======

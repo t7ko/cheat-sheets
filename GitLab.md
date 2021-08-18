@@ -55,11 +55,16 @@ Official:
 3rd party manual:
 
 * https://www.linode.com/docs/guides/install-gitlab-with-docker/
-* `yum install docker`
-* `yum clean packages` to free space in /var
-* `sudo docker pull gitlab/gitlab-ce:latest`
-* Run:
-  ```
+* Basic steps:
+
+```
+yum install docker
+systemctl enable docker
+systemctl start docker
+yum clean packages # to free space in /var
+sudo docker pull gitlab/gitlab-ce:latest
+
+# Run:
   docker run --detach --hostname YOUR_HOSTNAME \
     --publish 443:443 --publish 80:80 --publish 12322:22 \
     --name gitlab --restart always \
@@ -68,8 +73,9 @@ Official:
     --volume /srv/gitlab/data:/var/opt/gitlab  \
     --env GITLAB_OMNIBUS_CONFIG="external_url 'http://YOUR_HOSTNAME';" \
     gitlab/gitlab-ce:latest
-  ```
-* `systemctl enable docker # to enable auto-startup`
+
+```
+
 * Or -- if using podman:
   ```
   podman generate systemd --new --name gitlab > /etc/systemd/system/gitlab.service`

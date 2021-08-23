@@ -17,6 +17,8 @@ Auto-generated pages index:
 * [home](home)
 * [http](http)
 * [screen](screen)
+* [systemctl](systemctl)
+* [vim](vim)
 * [yum, rpm](yum,-rpm)
 
 
@@ -37,6 +39,8 @@ Auto-generated pages index:
 * [home](home)
 * [http](http)
 * [screen](screen)
+* [systemctl](systemctl)
+* [vim](vim)
 * [yum, rpm](yum,-rpm)
 
 
@@ -59,6 +63,8 @@ Auto-generated pages index:
 * [home](home)
 * [http](http)
 * [screen](screen)
+* [systemctl](systemctl)
+* [vim](vim)
 * [yum, rpm](yum,-rpm)
 
 

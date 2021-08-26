@@ -3,6 +3,7 @@ Auto-generated pages index:
 ## Index
 
 * [Amazon](Amazon)
+* [FreeMind](FreeMind)
 * [GitHub](GitHub)
 * [GitLab](GitLab)
 * [Markdown](Markdown)
@@ -25,6 +26,7 @@ Auto-generated pages index:
 ## Tree
 
 * [Amazon](Amazon)
+* [FreeMind](FreeMind)
 * [GitHub](GitHub)
 * [GitLab](GitLab)
 * [Markdown](Markdown)
@@ -49,6 +51,7 @@ Auto-generated pages index:
 ### ROOT
 
 * [Amazon](Amazon)
+* [FreeMind](FreeMind)
 * [GitHub](GitHub)
 * [GitLab](GitLab)
 * [Markdown](Markdown)

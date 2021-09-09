@@ -1,6 +1,7 @@
 
 * Dot language: <https://graphviz.org/doc/info/lang.html>
-* VS code: `joaompinto.vscode-graphviz`
+* Dot guide: <https://www.graphviz.org/pdf/dotguide.pdf>
+* VS code plugin: `joaompinto.vscode-graphviz`
 
 
 Project Plan:
@@ -12,7 +13,7 @@ digraph "unnamed" {
 
   node [style=filled; fillcolor=white];
 
-  // dot HouseDesign.dot -Tpdf > HouseDesign.pdf
+  // dot file.dot -Tpdf > file.pdf
 
   // completed
   // one [fillcolor=green];

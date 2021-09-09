@@ -9,6 +9,7 @@ Tags: :git:github:
   - `git remote add upstream https://.../vimwiki/vimwiki.git`
 * git diff
   - `git diff --minimal --ignore-all-space`
+  - `git diff --cached`
 * git log / lol
   - `git log --graph --decorate --pretty=oneline --abbrev-commit`
 * change remote of a checked out branch
@@ -46,7 +47,7 @@ plugin 'git-up'
 ```
 git push origin --delete b1
 
-git remote prune origin
+git remote prune origin # purge
 git push origin --delete `git br -a | grep '^  remotes/origin' | sed 's|^  remotes/origin/||' | grep -v '^HEAD' |  grep -v '^main$' | head -n 20`
 ```
 

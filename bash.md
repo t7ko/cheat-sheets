@@ -14,3 +14,9 @@ ps ax | grep PATTERN
 cd /proc/145348/fd
 tail -f 1
 ```
+
+* regex
+  ```
+  if [[ ! "$IP_ADDR" =~ ^[0-9]{1,3}(\.[0-9]{1,3}){3}$ ]]; then
+  ```
+      

@@ -3,10 +3,12 @@ Auto-generated pages index:
 ## Index
 
 * [Amazon](Amazon)
+* [Branching Patterns](Branching-Patterns)
 * [FreeMind](FreeMind)
 * [GitHub](GitHub)
 * [GitLab](GitLab)
 * [GraphViz, dot](GraphViz,-dot)
+* [Linux, timezones, timedatactl](Linux,-timezones,-timedatactl)
 * [MS Office 365](MS-Office-365)
 * [Markdown](Markdown)
 * [MobaXterm](MobaXterm)
@@ -20,6 +22,7 @@ Auto-generated pages index:
 * [home](home)
 * [http](http)
 * [screen](screen)
+* [sed](sed)
 * [systemctl](systemctl)
 * [vim](vim)
 * [yum, rpm](yum,-rpm)
@@ -28,10 +31,12 @@ Auto-generated pages index:
 ## Tree
 
 * [Amazon](Amazon)
+* [Branching Patterns](Branching-Patterns)
 * [FreeMind](FreeMind)
 * [GitHub](GitHub)
 * [GitLab](GitLab)
 * [GraphViz, dot](GraphViz,-dot)
+* [Linux, timezones, timedatactl](Linux,-timezones,-timedatactl)
 * [MS Office 365](MS-Office-365)
 * [Markdown](Markdown)
 * [MobaXterm](MobaXterm)
@@ -45,6 +50,7 @@ Auto-generated pages index:
 * [home](home)
 * [http](http)
 * [screen](screen)
+* [sed](sed)
 * [systemctl](systemctl)
 * [vim](vim)
 * [yum, rpm](yum,-rpm)
@@ -55,10 +61,12 @@ Auto-generated pages index:
 ### ROOT
 
 * [Amazon](Amazon)
+* [Branching Patterns](Branching-Patterns)
 * [FreeMind](FreeMind)
 * [GitHub](GitHub)
 * [GitLab](GitLab)
 * [GraphViz, dot](GraphViz,-dot)
+* [Linux, timezones, timedatactl](Linux,-timezones,-timedatactl)
 * [MS Office 365](MS-Office-365)
 * [Markdown](Markdown)
 * [MobaXterm](MobaXterm)
@@ -72,6 +80,7 @@ Auto-generated pages index:
 * [home](home)
 * [http](http)
 * [screen](screen)
+* [sed](sed)
 * [systemctl](systemctl)
 * [vim](vim)
 * [yum, rpm](yum,-rpm)

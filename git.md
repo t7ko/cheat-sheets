@@ -51,3 +51,9 @@ git remote prune origin # purge
 git push origin --delete `git br -a | grep '^  remotes/origin' | sed 's|^  remotes/origin/||' | grep -v '^HEAD' |  grep -v '^main$' | head -n 20`
 ```
 
+
+# re re re (rerere)
+
+https://git-scm.com/book/en/v2/Git-Tools-Rerere
+
+`git config rerere.enabled true`

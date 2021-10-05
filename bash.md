@@ -1,4 +1,7 @@
 
+set -euo pipefail # exit on failures
+set -exuo pipefail # exit on failures, and print all commands
+
 read -ra var <<< "$VALUE"
 
 run specific bash function over ssh:

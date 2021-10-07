@@ -43,6 +43,7 @@ wiki_update_reference_and_commit() {
   wiki_generate_reference
   cnt=`wiki_git status --porcelain --untracked-files=all | wc -l`
   if test "$cnt" -gt 0; then
+    # have unsaved changes
     wiki_git status
     echo
     echo "Will be doing this:"

@@ -22,4 +22,15 @@ tail -f 1
   ```
   if [[ ! "$IP_ADDR" =~ ^[0-9]{1,3}(\.[0-9]{1,3}){3}$ ]]; then
   ```
-      
+
+```
+t7_copy_function() {
+  test -n "$(declare -f "$1")" || return
+  eval "${_/$1/$2}"
+}
+
+t7_rename_function() {
+  t7_copy_function "$@" || return
+  unset -f "$1"
+}
+```

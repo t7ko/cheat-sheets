@@ -16,6 +16,8 @@ Tags: :git:github:
   - `git branch branch_name --set-upstream-to your_new_remote/branch_name`
 * store .git files elsewhere:
   - `git --git-dir=/var/repo/one.git --work-tree=/var/work/one init`
+  - then:
+  - `git --git-dir=/var/repo/one.git ...your-command`
 
 ```
 # Check out remote branch without creating a local 'remote'

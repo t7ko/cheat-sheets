@@ -2,6 +2,11 @@
 # designed to be sourced in bash shell / scripts
 
 declare -A WIKI_LIST
+  # This is a mapping of wiki 'name/label' to a path it's located at.
+  # Populate this after you source this file.
+  # For example:
+  # WIKI_LIST[personal]="/absolute/folder/path/one"
+  # WIKI_LIST[work]="/absolute/folder/path/two"
 
 WIKI_SCRIPTS_DIR=$(dirname "$(realpath "$BASH_SOURCE")")
 

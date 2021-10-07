@@ -14,6 +14,8 @@ Tags: :git:github:
   - `git log --graph --decorate --pretty=oneline --abbrev-commit`
 * change remote of a checked out branch
   - `git branch branch_name --set-upstream-to your_new_remote/branch_name`
+* store .git files elsewhere:
+  - `git --git-dir=/var/repo/one.git --work-tree=/var/work/one init`
 
 ```
 # Check out remote branch without creating a local 'remote'

@@ -1,4 +1,7 @@
 
+Bash Reference Manual:
+* https://www.gnu.org/software/bash/manual/bash.html
+
 set -euo pipefail # exit on failures
 set -exuo pipefail # exit on failures, and print all commands
 

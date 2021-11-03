@@ -17,3 +17,9 @@ If you want to accept a repository invite, then you can use this schema:
 # your branches
 
 https://github.com/Seagate/cortx-s3server/branches/yours
+
+
+# searching PRs
+
+https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests
+

@@ -3,21 +3,33 @@ Tags: :git:github:
 * Publish to github (will also create new branch there):
   - `git push origin dev`
   - `git push upstream utags:tags`
+
 * Create local working brach as copy of remote branch:
   - `git co -b dev origin/dev`
+
 * Add 'remote' repo to track it:
   - `git remote add upstream https://.../vimwiki/vimwiki.git`
+
 * git diff
   - `git diff --minimal --ignore-all-space`
   - `git diff --cached`
+
 * git log / lol
   - `git log --graph --decorate --pretty=oneline --abbrev-commit`
+
 * change remote of a checked out branch
   - `git branch branch_name --set-upstream-to your_new_remote/branch_name`
+
 * store .git files elsewhere:
   - `git --git-dir=/var/repo/one.git --work-tree=/var/work/one init`
   - then:
   - `git --git-dir=/var/repo/one.git ...your-command`
+
+* modify remote URL:
+   * `git remote set-url origin git@github.com:t7ko/jdotxt.git`
+
+* reset branch to point to a different commit:
+   * `git reset --hard 0d1d7fc32`
 
 ```
 # Check out remote branch without creating a local 'remote'
@@ -61,3 +73,15 @@ git push origin --delete `git br -a | grep '^  remotes/origin' | sed 's|^  remot
 https://git-scm.com/book/en/v2/Git-Tools-Rerere
 
 `git config rerere.enabled true`
+
+
+# Moving Files from one Git Repo to Another, Preserving History
+
+FYI -
+
+Here is the guide that I followed to move files while maintaining history:
+http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/
+
+The only change was that I had to add --allow-unrelated-histories to the pull command (new git behavior).
+
+

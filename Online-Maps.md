@@ -8,3 +8,6 @@
          * correct format sample: https://wiki.openstreetmap.org/wiki/GPX
       * import into osmand
 
+* Editing OSM: https://www.openstreetmap.org/#map=19/50.21849/38.10050
+* OSM Wiki/help: https://wiki.openstreetmap.org/wiki/Key:surface
+* Ruler: select segment, git ctrl-shift-m.

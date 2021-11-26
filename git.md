@@ -31,7 +31,7 @@ Tags: :git:github:
 * reset branch to point to a different commit:
    * `git reset --hard 0d1d7fc32`
 
-```
+```bash
 # Check out remote branch without creating a local 'remote'
 # https://stackoverflow.com/questions/10200307/how-to-git-fetch-and-checkout-without-creating-a-remote-branch-locally
 # to merge:

@@ -21,4 +21,41 @@ $ ssh-keygen -p -f ~/.ssh/id_ed25519
 > Your identification has been saved with the new passphrase.
 ```
 
+# Prevent host key change warnings
+
+```cnf
+Host myhost
+    HostName myhost
+    UserKnownHostsFile /dev/null
+    StrictHostKeyChecking no
+```
+
+or:
+
+```bash
+sshx () {
+    ssh -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" "$@"
+}
+```   
+
+# Keepalive issue
+
+Client -- `/etc/ssh/ssh_config`:
+
+```cnf
+ServerAliveInterval 100
+```
+
+Server -- `/etc/ssh/sshd_config`:
+
+```cnf
+ClientAliveInterval 60
+TCPKeepAlive yes
+ClientAliveCountMax 10000
+```
+
+
+# Login banner
+
+`/etc/motd`
 

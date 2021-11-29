@@ -1,48 +1,55 @@
 Tags: :git:github:
 
-* Publish to github (will also create new branch there):
+# Publish to github (will also create new branch there):
   - `git push origin dev`
   - `git push upstream utags:tags`
 
-* Create local working brach as copy of remote branch:
+# Create local working brach as copy of remote branch:
   - `git co -b dev origin/dev`
 
-* Add 'remote' repo to track it:
+# Add 'remote' repo to track it:
   - `git remote add upstream https://.../vimwiki/vimwiki.git`
 
-* git diff
+# git diff
   - `git diff --minimal --ignore-all-space`
   - `git diff --cached`
 
-* git log / lol
+# git log / lol
   - `git log --graph --decorate --pretty=oneline --abbrev-commit`
 
-* change remote of a checked out branch
+# change remote of a checked out branch
   - `git branch branch_name --set-upstream-to your_new_remote/branch_name`
 
-* store .git files elsewhere:
+# store .git files elsewhere:
   - `git --git-dir=/var/repo/one.git --work-tree=/var/work/one init`
   - then:
   - `git --git-dir=/var/repo/one.git ...your-command`
 
-* modify remote URL:
+# modify remote URL:
    * `git remote set-url origin git@github.com:t7ko/jdotxt.git`
 
-* reset branch to point to a different commit:
+# reset branch to point to a different commit:
    * `git reset --hard 0d1d7fc32`
 
-```bash
+# Local setting, per checked-out repository:
+   * `git config user.name "Ivan Tishchenko"`
+   * Stored in `.git/config`
+
 # Check out remote branch without creating a local 'remote'
-# https://stackoverflow.com/questions/10200307/how-to-git-fetch-and-checkout-without-creating-a-remote-branch-locally
-# to merge:
-git fetch git://github.com/xxx/xxx.git branch_name && git merge FETCH_HEAD
 
-# to create a branch
-git fetch git://host.com/path/to/repo.git remote-branch-name:local-branch-name
-git checkout local-branch-name
+   - https://stackoverflow.com/questions/10200307/how-to-git-fetch-and-checkout-without-creating-a-remote-branch-locally
+   - to merge:
+      - `git fetch git://github.com/xxx/xxx.git branch_name && git merge FETCH_HEAD`
+   - to create a branch:
 
+     ```bash
+     git fetch git://host.com/path/to/repo.git remote-branch-name:local-branch-name
+     git checkout local-branch-name
+     ```
 
 # DCO/signed commit
+
+```bash
 git verify-commit # to check signature
 git rebase --signoff HEAD~2 # sign last 2 commits
 

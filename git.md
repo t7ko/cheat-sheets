@@ -26,14 +26,23 @@ Tags: :git:github:
   - `git --git-dir=/var/repo/one.git ...your-command`
 
 # modify remote URL:
-   * `git remote set-url origin git@github.com:t7ko/jdotxt.git`
+   - `git remote set-url origin git@github.com:t7ko/jdotxt.git`
 
 # reset branch to point to a different commit:
-   * `git reset --hard 0d1d7fc32`
+   - `git reset --hard 0d1d7fc32`
 
 # Local setting, per checked-out repository:
-   * `git config user.name "Ivan Tishchenko"`
-   * Stored in `.git/config`
+   - `git config user.name "Ivan Tishchenko"`
+   - Stored in `.git/config`
+
+# Undo last commit:
+   - `git reset --soft HEAD~1` -- keeps in index
+   - `git reset --mixed HEAD~1` -- removes from index as well, but keeps in
+     working copy
+
+# Unstage files:
+   - `git reset`
+   - `git reset -- README`
 
 # Check out remote branch without creating a local 'remote'
 

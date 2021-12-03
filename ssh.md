@@ -23,7 +23,7 @@ $ ssh-keygen -p -f ~/.ssh/id_ed25519
 
 # Prevent host key change warnings
 
-```cnf
+```txt
 Host myhost
     HostName myhost
     UserKnownHostsFile /dev/null
@@ -36,19 +36,19 @@ or:
 sshx () {
     ssh -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" "$@"
 }
-```   
+```
 
 # Keepalive issue
 
 Client -- `/etc/ssh/ssh_config`:
 
-```cnf
+```txt
 ServerAliveInterval 100
 ```
 
 Server -- `/etc/ssh/sshd_config`:
 
-```cnf
+```txt
 ClientAliveInterval 60
 TCPKeepAlive yes
 ClientAliveCountMax 10000

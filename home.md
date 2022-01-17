@@ -28,11 +28,13 @@ Auto-generated pages index:
 * [home](home)
 * [http](http)
 * [jq, JSON, YAML](jq,-JSON,-YAML)
+* [kubernetes, k8s](kubernetes,-k8s)
 * [screen](screen)
 * [sed](sed)
 * [ssh](ssh)
 * [systemctl](systemctl)
 * [vim](vim)
+* [warp](warp)
 * [yum, rpm](yum,-rpm)
 
 
@@ -64,11 +66,13 @@ Auto-generated pages index:
 * [home](home)
 * [http](http)
 * [jq, JSON, YAML](jq,-JSON,-YAML)
+* [kubernetes, k8s](kubernetes,-k8s)
 * [screen](screen)
 * [sed](sed)
 * [ssh](ssh)
 * [systemctl](systemctl)
 * [vim](vim)
+* [warp](warp)
 * [yum, rpm](yum,-rpm)
 
 
@@ -102,11 +106,13 @@ Auto-generated pages index:
 * [home](home)
 * [http](http)
 * [jq, JSON, YAML](jq,-JSON,-YAML)
+* [kubernetes, k8s](kubernetes,-k8s)
 * [screen](screen)
 * [sed](sed)
 * [ssh](ssh)
 * [systemctl](systemctl)
 * [vim](vim)
+* [warp](warp)
 * [yum, rpm](yum,-rpm)
 
 

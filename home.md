@@ -4,6 +4,7 @@ Auto-generated pages index:
 
 * [Amazon](Amazon)
 * [Branching Patterns](Branching-Patterns)
+* [Firefox](Firefox)
 * [FreeMind](FreeMind)
 * [GitHub](GitHub)
 * [GitLab](GitLab)
@@ -27,6 +28,7 @@ Auto-generated pages index:
 * [haproxy](haproxy)
 * [home](home)
 * [http](http)
+* [iozone](iozone)
 * [jq, JSON, YAML](jq,-JSON,-YAML)
 * [kubernetes, k8s](kubernetes,-k8s)
 * [screen](screen)
@@ -42,6 +44,7 @@ Auto-generated pages index:
 
 * [Amazon](Amazon)
 * [Branching Patterns](Branching-Patterns)
+* [Firefox](Firefox)
 * [FreeMind](FreeMind)
 * [GitHub](GitHub)
 * [GitLab](GitLab)
@@ -65,6 +68,7 @@ Auto-generated pages index:
 * [haproxy](haproxy)
 * [home](home)
 * [http](http)
+* [iozone](iozone)
 * [jq, JSON, YAML](jq,-JSON,-YAML)
 * [kubernetes, k8s](kubernetes,-k8s)
 * [screen](screen)
@@ -82,6 +86,7 @@ Auto-generated pages index:
 
 * [Amazon](Amazon)
 * [Branching Patterns](Branching-Patterns)
+* [Firefox](Firefox)
 * [FreeMind](FreeMind)
 * [GitHub](GitHub)
 * [GitLab](GitLab)
@@ -105,6 +110,7 @@ Auto-generated pages index:
 * [haproxy](haproxy)
 * [home](home)
 * [http](http)
+* [iozone](iozone)
 * [jq, JSON, YAML](jq,-JSON,-YAML)
 * [kubernetes, k8s](kubernetes,-k8s)
 * [screen](screen)

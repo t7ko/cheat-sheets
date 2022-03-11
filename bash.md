@@ -37,3 +37,19 @@ t7_rename_function() {
   unset -f "$1"
 }
 ```
+
+multiline variable assignment:
+
+```
+read -r -d "" timelog <<EOF
+{
+   "taskKey": "$TASK",
+   "workStarted": "${DATE}T08:00:00",
+   "timeTotalSeconds": $SECONDS,
+   "comment": "$DESC",
+   "sendForReview": false,
+   "worker": "$USER",
+   "estimation": "auto"
+}
+EOF
+```

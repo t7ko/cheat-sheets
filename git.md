@@ -71,6 +71,7 @@ git rebase --signoff HEAD~2 # sign last 2 commits
 # git pull all
 
 http://stackoverflow.com/questions/4318161/can-git-pull-all-update-all-my-local-branches
+
 plugin 'git-up'
 
 
@@ -100,4 +101,12 @@ http://gbayer.com/development/moving-files-from-one-git-repository-to-another-pr
 
 The only change was that I had to add --allow-unrelated-histories to the pull command (new git behavior).
 
+
+# Rewriting history
+
+* https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History
+* https://git-scm.com/docs/git-filter-branch
+* https://github.com/newren/git-filter-repo/
+   * https://htmlpreview.github.io/?https://github.com/newren/git-filter-repo/blob/docs/html/git-filter-repo.html
+   * see --replace-text, there is an example
 

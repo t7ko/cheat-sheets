@@ -110,3 +110,18 @@ The only change was that I had to add --allow-unrelated-histories to the pull co
    * https://htmlpreview.github.io/?https://github.com/newren/git-filter-repo/blob/docs/html/git-filter-repo.html
    * see --replace-text, there is an example
 
+
+# Removing sensitive data from your repository
+
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
+
+git filter-repo 
+git filter-repo --invert-paths --path PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA
+
+https://github.com/newren/git-filter-repo
+
+https://rtyley.github.io/bfg-repo-cleaner/
+
+bfg --delete-files YOUR-FILE-WITH-SENSITIVE-DATA
+bfg --replace-text passwords.txt
+

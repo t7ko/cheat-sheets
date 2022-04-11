@@ -23,3 +23,7 @@ https://github.com/Seagate/cortx-s3server/branches/yours
 
 https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests
 
+# mermaid diagrams
+
+https://github.com/mermaid-js/mermaid/blob/develop/README.md
+

@@ -63,7 +63,7 @@ git verify-commit # to check signature
 git rebase --signoff HEAD~2 # sign last 2 commits
 
 [alias]
-  # Usage: git signoff-rebase [base-commit]
+  ## Usage: git signoff-rebase [base-commit]
   signoff-rebase = "!GIT_SEQUENCE_EDITOR='sed -i -re s/^pick/e/' sh -c 'git rebase -i $1 && while git rebase --continue; do git commit --amend --signoff --no-edit; done' -"
 ```
 
@@ -124,4 +124,30 @@ https://rtyley.github.io/bfg-repo-cleaner/
 
 bfg --delete-files YOUR-FILE-WITH-SENSITIVE-DATA
 bfg --replace-text passwords.txt
+
+
+# rebase
+
+First let's assume your topic is based on branch next. For example, a feature
+developed in topic depends on some functionality which is found in next.
+
+        o---o---o---o---o  master
+             \
+              o---o---o---o---o  next
+                               \
+                                o---o---o  topic
+
+We want to make topic forked from branch master; for example, because the
+functionality on which topic depends was merged into the more stable master
+branch. We want our tree to look like this:
+
+        o---o---o---o---o  master
+            |            \
+            |             o'--o'--o'  topic
+             \
+              o---o---o---o---o  next
+
+We can get this using the following command:
+
+    git rebase --onto master next topic
 

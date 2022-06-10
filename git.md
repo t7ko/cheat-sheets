@@ -151,3 +151,10 @@ We can get this using the following command:
 
     git rebase --onto master next topic
 
+# git commit --cleanup=whitespace
+
+Just like default but does not remove #commentary.
+
+# git commit --cleanup=verbatim
+
+Does not modify message, leaves it as is.

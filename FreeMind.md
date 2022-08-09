@@ -1,8 +1,7 @@
 
 
 * Max Node Width:
-   * Tools>>Preferences>>Max Node Width (Under Default Fonts - guess this should really be Default Text Settings). 
-   * 
+   * Tools >> Preferences >> Defaults >> Default Fonts >> Max Node Width
 
 Hotkeys:
    - http://freemind.sourceforge.net/wiki/index.php/Keyboard_shortcuts

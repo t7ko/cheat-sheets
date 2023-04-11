@@ -27,3 +27,6 @@ https://docs.github.com/en/search-github/searching-on-github/searching-issues-an
 
 https://github.com/mermaid-js/mermaid/blob/develop/README.md
 
+# github CLI
+
+https://cli.github.com

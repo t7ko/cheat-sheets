@@ -23,3 +23,7 @@ if allof( header :contains "From"  "jira@dsr-corporation.com" )
            body   :contains "mentioned") {
 .........
 ```
+
+* `status was Execution AFTER -365d`
+* `status was execution AFTER -365d and status was not Execution BEFORE -365d`
+* `status changed to ("Execution") AFTER "2023-01-01"`

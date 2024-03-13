@@ -19,6 +19,15 @@ wiki_git() {
 }
 
 wiki_sync() {
+  if test -z "$(ps ax | grep ssh-agent)"; then
+    if ! t7_confirm "ssh-agent does not seem to be running. Continue?"; then
+      echo "hint:"
+      echo "\$ eval \$(ssh-agent)"
+      echo "\$ ssh-add"
+      false
+      return
+    fi
+  fi
   wiki_do wiki_sync_one
 }
 

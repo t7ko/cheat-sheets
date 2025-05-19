@@ -2,6 +2,7 @@ Auto-generated pages index:
 
 ## Index
 
+* [AdBlockPlus](AdBlockPlus)
 * [Amazon](Amazon)
 * [Branching Patterns](Branching-Patterns)
 * [Firefox](Firefox)
@@ -48,6 +49,7 @@ Auto-generated pages index:
 
 ## Tree
 
+* [AdBlockPlus](AdBlockPlus)
 * [Amazon](Amazon)
 * [Branching Patterns](Branching-Patterns)
 * [Firefox](Firefox)
@@ -96,6 +98,7 @@ Auto-generated pages index:
 
 ### ROOT
 
+* [AdBlockPlus](AdBlockPlus)
 * [Amazon](Amazon)
 * [Branching Patterns](Branching-Patterns)
 * [Firefox](Firefox)

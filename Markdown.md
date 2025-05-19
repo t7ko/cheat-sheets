@@ -39,8 +39,21 @@
 "markdown.extension.toc.unorderedList.marker": "*"
 ```
 
-<!--- spellcheck-language ru
--->
+* Markdown-Preview-Enhanced (for white BG)
+* Markdown Preview Github Styled (for white BG)
+* OR: `CTRL-K` `CTRL-T` `Dark Modern` / `Light Modern`.
+   * or `Light+` ?
+
+
+https://github.com/bartosz-antosik/vscode-spellright
+
+<!--- spellcheck-language ru -->
+<!--- spellcheck-off -->
+
+
+Disabling markdown warning:
+
+<!-- markdownlint-disable MD012 MD047 MD034 MD025 MD040 -->
 
 
 # Editors

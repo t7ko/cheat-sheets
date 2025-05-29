@@ -153,7 +153,7 @@ We can get this using the following command:
 
 # git commit --cleanup=whitespace
 
-Just like default but does not remove #commentary.
+Just like default but does not remove `#commentary`.
 
 # git commit --cleanup=verbatim
 

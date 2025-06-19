@@ -62,6 +62,7 @@ wiki_update_reference_and_commit() {
       return
     fi
     wiki_git add -A
+    wiki_git add .
     wiki_git commit -m "Updated"
   fi
 }

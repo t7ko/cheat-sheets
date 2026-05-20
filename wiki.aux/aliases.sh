@@ -42,10 +42,12 @@ wiki_do() {
 }
 
 wiki_generate_reference() {
-  title="Auto-generated pages index:"
-  sed -i "/^$title/"',$d' home.md
-  echo -ne "$title\n\n" >> home.md
-  find . -name '*.md' | sort | "$WIKI_SCRIPTS_DIR/home.py" >>home.md
+  if test -f home.md; then
+    title="Auto-generated pages index:"
+    sed -i "/^$title/"',$d' home.md
+    echo -ne "$title\n\n" >> home.md
+    find . -name '*.md' | sort | "$WIKI_SCRIPTS_DIR/home.py" >>home.md
+  fi
 }
 
 wiki_update_reference_and_commit() {

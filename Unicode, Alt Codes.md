@@ -1,6 +1,8 @@
 
 Jump: [[#Alt Codes table]]
 
+quick copy list: ⚠️
+
 Contents
 ```table-of-contents
 ```

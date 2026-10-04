@@ -35,6 +35,7 @@ wiki_do() {
   echo "Doing '$*' on wikis:"
   for wiki_name in "${!WIKI_LIST[@]}"; do
     ( echo "* $wiki_name"
+      echo "  ${WIKI_LIST[$wiki_name]}"
       cd "${WIKI_LIST[$wiki_name]}"
       "$@"
     )
